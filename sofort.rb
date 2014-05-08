@@ -15,7 +15,6 @@ module Sofort
     end
 
     def pay(amount, name, url, cbo_number, currency_code, country_code)
-      # raise currency_code.inspect
       abort_url = "#{APP_CONFIG['url']}/sofort/cancel"
       hash = { amount: amount, currency_code: currency_code, reasons: { reason: "#{cbo_number} - #{Rails.env.to_s}" }, 
         sender: { holder: name, country_code: country_code }, email_customer: 'sebastian.skopp@gmail.com', notification_emails: 
