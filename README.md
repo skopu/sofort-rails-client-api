@@ -1,7 +1,7 @@
 sofort-rails-client-api
 =======================
 
-client for newest sofort api
+Rails client for newest sofort api
 
 it's only example module for sofort(using gem 'httparty')
 =======================
