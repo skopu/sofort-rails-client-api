@@ -9,8 +9,10 @@ important variables:
 =======================
 
 @base_uri = 'https://api.sofort.com/api/xml'
-APP_CONFIG['sofort']['user_id'] = 123455 # it should be your account user id
-APP_CONFIG['sofort']['api_key'] = asd134ufb91b7972fbbv9 # your api key, remember to generate key for !!sofort banking gateway!!
+APP_CONFIG['sofort']['user_id'] = eg. 123455 # it should be your account user id
+
+APP_CONFIG['sofort']['api_key'] = eg. asd134ufb91b7972fbbv9 # your api key, remember to generate key for SOFORT BANKING GATEWAY!!
+
 APP_CONFIG['sofort']['base_url'] = 'https://api.sofort.com/api/xml'
 
 pay example:
