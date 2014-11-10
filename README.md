@@ -9,6 +9,7 @@ important variables:
 =======================
 
 @base_uri = 'https://api.sofort.com/api/xml'
+
 APP_CONFIG['sofort']['user_id'] = eg. 123455 # it should be your account user id
 
 APP_CONFIG['sofort']['api_key'] = eg. asd134ufb91b7972fbbv9 # your api key, remember to generate key for SOFORT BANKING GATEWAY!!
@@ -19,6 +20,7 @@ pay example:
 =======================
 
 @sofort = Sofort::API.new
+
 result = @sofort.pay(12.0, "Sebastian Skopp", 'http://return.url', 'reason', 'EUR', 'DE')
 
 details example: 
